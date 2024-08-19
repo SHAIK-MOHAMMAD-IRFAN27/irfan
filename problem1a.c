@@ -1,3 +1,7 @@
+/*
+name: Shaik Mohammad Irfan
+roll number: MT2024138
+*/
 #include<stdio.h>
 #include<unistd.h>
 int main(int nums,char *files[]){
