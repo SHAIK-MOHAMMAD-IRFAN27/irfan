@@ -1,6 +1,8 @@
 /* 
   name : SHAIK MOHAMMAD IRFAN
 roll : MT2024138
+problem statement: Write a program to print the following information about a given file.
+a. inode b. number of hard links c. uid d. gid e. size f. block size g. number of blocks h. time of last access i. time of last modification j. time of last change 
 */
 #include<stdio.h>
 #include<sys/stat.h>
