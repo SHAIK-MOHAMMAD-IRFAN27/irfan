@@ -1,3 +1,7 @@
+/* 
+  name : SHAIK MOHAMMAD IRFAN
+roll : MT2024138
+*/
 #include<stdio.h>
 #include<sys/stat.h>
 #include<time.h>
