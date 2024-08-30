@@ -1,9 +1,12 @@
+
 /*
-name :SHAIK MOHAMMAD IRFAN
-ROLL: MT2024138
-problem statement :open a file,call fork and write to file by child and parent
-and check output of file
+name: problem22.c
+author: SHAIK  MOHAMMAD IRFAN 
+description: Write a program, open a file, call fork, and then write to the file by both
+ the child as well as the parent processes. Check output of the file.  
+date:28th august 2024
 */
+
 #include <stdio.h>
 #include<stdlib.h>
 #include<sys/types.h>
@@ -35,4 +38,10 @@ printf("parent process PID  %d wrote into this file \n",getpid());
 close(fd);
 return 0;
 }
+/*
+OUTPUT:
+file name : pr22.txt
+parent process PID  1180 wrote into this file
+child process PID 1181 wrote in the file
+*/
 

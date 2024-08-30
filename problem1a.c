@@ -1,6 +1,9 @@
 /*
-name: Shaik Mohammad Irfan
-roll number: MT2024138
+name: problem1a.c
+author: SHAIK  MOHAMMAD IRFAN 
+description:  Create the following types of a files using (i) shell command (ii) system call 
+a. soft link (symlink system call)
+date:19th august 2024
 */
 #include<stdio.h>
 #include<unistd.h>
@@ -20,3 +23,8 @@ perror("symlink");
 return -1;
 }
 }
+
+/*
+OUTPUT :
+soft link created between file1 and file 2
+*/

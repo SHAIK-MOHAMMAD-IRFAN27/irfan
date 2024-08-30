@@ -1,7 +1,8 @@
 /*
-name :SHAIK MOHAMMAD IRFAN
-ROLL: MT2024138
-problem statement :program to create zombie state of running program
+name: problem23.c
+author: SHAIK  MOHAMMAD IRFAN 
+description:program to create zombie state of running program 
+date:28th august 2024
 */
 #include <stdio.h>
 #include<stdlib.h>
@@ -22,4 +23,8 @@ printf("the parent process %d has woken up\n",getpid());
 }
 return 0;
 }
-
+/*
+OUTPUT:
+parent process  1201 is sleeping
+child process  1202 is exiting
+*/

@@ -1,8 +1,10 @@
 /*
-name :SHAIK MOHAMMAD IRFAN
-ROLL: MT2024138
-problem statement :program to create fork() call and print parent and child pid
+name: problem21.c
+author: SHAIK  MOHAMMAD IRFAN 
+description:.program to create fork() call and print parent and child pid
+date:27th august 2024
 */
+
 #include <stdio.h>
 #include<stdlib.h>
 #include<sys/types.h>
@@ -22,3 +24,10 @@ printf("the child process PID is %d \n",getpid());
 return 0;
 }
 
+/*
+OUTPUT:
+parent process PID is 1158
+the child process PID is 1158
+child process PId is 1159
+parent of the child process PID is 12
+*/

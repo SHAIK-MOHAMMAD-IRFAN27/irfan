@@ -1,6 +1,9 @@
 /*
-name: Shaik Mohammad Irfan
-roll number : MT2024138
+name: problem1c.c
+author: SHAIK  MOHAMMAD IRFAN 
+description:  Create the following types of a files using (i) shell command (ii) system call 
+a. Fifo
+date:19th august 2024
 */
 #include<stdio.h>
 #include<sys/types.h>
@@ -21,3 +24,6 @@ perror("mkfifo");
 return -1;
 }
 }
+/*
+OUTPUT:fifo file created
+*/

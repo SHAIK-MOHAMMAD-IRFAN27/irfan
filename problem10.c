@@ -1,10 +1,13 @@
-/* 
-name: SHAIK MOHAMMAD IRFAN
-roll : MT2024138
-problem statement:write program to open file in RW mode,write 10 bytes move  the file pointer by 10 byte use lseek write 10 bytes again 
-a. check the return value of lseek
-b.open file with od and check the empty spaces between data
 
+/*
+name: problem10.c
+author: SHAIK  MOHAMMAD IRFAN 
+description:write program to open file in RW mode,write 10 bytes move  the file pointer
+ by 10 byte use lseek write 10 bytes again 
+a. check the return value of lseek
+b.open file with od and check the empty spaces between data 
+
+date:22nd august 2024
 */
 #include<stdio.h>
 #include<unistd.h>
@@ -46,3 +49,8 @@ return 1;
 close(fd);
 return 0;
 }
+/*OUTPUT:
+in file pr10.txt
+the contents are written in the file pr10.txt
+Hiiamirfaniamwalking
+*/

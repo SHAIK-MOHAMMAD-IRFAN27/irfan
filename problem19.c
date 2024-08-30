@@ -1,3 +1,10 @@
+/*
+name: problem19.c
+author: SHAIK  MOHAMMAD IRFAN 
+description:. Write a program to find out time taken to
+ execute getpid system call. Use time stamp counter. 
+date:27th august 2024
+*/
 #include<stdio.h>
 #include<stdint.h>
 #include<unistd.h>
@@ -15,6 +22,8 @@ end=rdtsc();
 printf("pID : %d\n",pid);
 printf("time taken by getpid() is :%llu \n",(end-start));
 return 0;
-ll;
 }
-
+/*OUTPUT:
+pID : 1138
+time taken by getpid() is :7159
+*/

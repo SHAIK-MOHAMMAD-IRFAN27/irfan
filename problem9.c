@@ -1,8 +1,13 @@
-/* 
-  name : SHAIK MOHAMMAD IRFAN
-roll : MT2024138
-problem statement: Write a program to print the following information about a given file.
-a. inode b. number of hard links c. uid d. gid e. size f. block size g. number of blocks h. time of last access i. time of last modification j. time of last change 
+
+/*
+name: problem9.c
+author: SHAIK  MOHAMMAD IRFAN 
+description:Write a program to print the following information about a given file.
+a. inode b. number of hard links c. uid d. gid e. size f. block size 
+g. number of blocks h. time of last access 
+i. time of last modification j. time of last change   
+
+date:29th august 2024
 */
 #include<stdio.h>
 #include<sys/stat.h>
@@ -40,3 +45,19 @@ return -1;
 printfiledetails(argv[1]);
 return 0;
 }
+/*
+OUTPUT:
+file name :pr9.txt
+Inode :51980
+no:of hard links : 1
+UID :1000
+GID 1000
+size: 0 bytes
+block size :4096 bytes
+no:of blocks :0
+last access time : Fri Aug 30 11:54:02 2024
+
+last modification time : Fri Aug 30 11:54:02 2024
+
+last change time : Fri Aug 30 11:54:02 2024
+*/

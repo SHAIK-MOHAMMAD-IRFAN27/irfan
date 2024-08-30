@@ -1,14 +1,18 @@
 /*
-name:SHAIK MOHAMMAD IRFAN
-ROLL : MT2024138
-prioblem statement: program to find the type of file
+name: problem14.c
+author: SHAIK  MOHAMMAD IRFAN 
+description:  Write a program to find the type of a file. 
+a. Input should be taken from command line. 
+b. program should be able to identify any type of a file. 
+
+date:24th august 2024
 */
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/stat.h>
 void printfiletype(struct stat *fileStat){
 if(S_ISREG(fileStat->st_mode)){
-printf("File is a regulsr type of file");
+printf("File is a regular type of file");
 }
 else if(S_ISDIR(fileStat->st_mode)){
 printf("file is a directory\n");
@@ -42,3 +46,7 @@ return 1;
 printfiletype(&fileStat);
 return 0;
 }
+/*OUTPUT:
+pr14 file
+file is a fifo file 
+*/

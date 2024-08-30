@@ -1,7 +1,10 @@
 /*
-name : SHAIK MOHAMMAD IRFAN
-ROLL : MT2024138
-PROBLEM STATEMENT:program to open a file , duplicate fd & append the file with both descriptors and check whether file is updated properly  or not
+name: problem11.c
+author: SHAIK  MOHAMMAD IRFAN 
+description:program to open a file , duplicate fd & append the file with both descriptors and 
+check whether file is updated properly  or not
+
+date:22nd august 2024
 */
 #include<stdio.h>
 #include<fcntl.h>
@@ -73,3 +76,11 @@ printf("file updated successfully");
 return 0;
 }
 
+/*
+OUTPUT:
+file:pr11.txt
+file updated successfully
+"hi my name is irfan and im from andhra pradeshhow are you iam 
+fine what about u?im currently studying at
+ iiit bangalore mtechthis is a program from hands on list problem "
+ */

@@ -1,7 +1,10 @@
+
 /*
-name : SHAIK MOHAMMAD IRFAN
-ROLL : MT2024138
-problem statememt: program to findout the opening mode of a file using fcntl
+name: problem12.c
+author: SHAIK  MOHAMMAD IRFAN 
+description: program to findout the opening mode of a file using fcntl
+
+date:23rd august 2024
 */
 #include<stdio.h>
 #include<stdlib.h>
@@ -31,3 +34,6 @@ printf("cant know the file access mode");
 close(fd);
 return 0;
 }
+/*OUTPUT:
+file pr12.txt
+file opened in read write mode*/

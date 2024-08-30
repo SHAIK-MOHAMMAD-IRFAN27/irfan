@@ -1,6 +1,9 @@
 /*
-name : SHAIK MOHAMMAD IRFAN
-roll : MT2024138
+name: problem4.c
+author: SHAIK  MOHAMMAD IRFAN 
+description:Write a program to open an existing file with read write mode. Try O_EXCL flag also. 
+ 
+date:20th august 2024
 */
 #include<stdio.h>
 #include<unistd.h>
@@ -28,3 +31,8 @@ close(fdexcl);
 return 0;
 }
 
+/*
+OUTPUT:
+file opened successfully in RDWR mode with FD:3
+file opened with EXCL flag successfully with FD:4
+*/

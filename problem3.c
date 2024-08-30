@@ -1,6 +1,10 @@
 /*
-name : SHAIK MOHAMMAD IRFAN
-roll: MT2024138
+name: problem3.c
+author: SHAIK  MOHAMMAD IRFAN 
+description:   Write a simple program to execute in an infinite loop at the background. Go to /proc directory and 
+identify all the process related information in the corresponding proc directory. 
+ 
+date:19th august 2024
 */
 #include<stdio.h>
 #include<fcntl.h>
@@ -16,3 +20,7 @@ printf("File Destriptor of the file:'problem3.txt' is %d",fd);
 close(fd);
 return 0;
 }
+/*
+OUTPUT:
+File DEscriptor of the file 'problem3.txt' is 1
+*/

@@ -1,8 +1,11 @@
+
 /*
-NAME : SHAIK MOHAMMAD IRFAN
-ROLL: MT2024138
-poblem statement: program to wait for STDIN for 10 sec using select.
+name: problem13.c
+author: SHAIK  MOHAMMAD IRFAN 
+description: program to wait for STDIN for 10 sec using select.
 write proper print statement to verify the data is available witin 10 sec or not
+
+date:23rd august 2024
 */
 #include<stdio.h>
 #include<stdlib.h>
@@ -34,4 +37,8 @@ printf("input data : %s",buffer);
 }
 return 0;
 }
-
+/*
+OUTPUT:
+file :pr13.txt
+hi my name is irfan shaik (contents written in the file)
+*/

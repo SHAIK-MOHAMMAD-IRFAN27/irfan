@@ -1,7 +1,9 @@
+
 /*
-name :SHAIK MOHAMMAD IRFAN
-ROLL: MT2024138
-problem statement :program to create orphan process of running program
+name: problem24.c
+author: SHAIK  MOHAMMAD IRFAN 
+description:program to create orphan process of running program
+date:28th august 2024
 */
 #include <stdio.h>
 #include<stdlib.h>
@@ -22,3 +24,8 @@ exit(0);
 return 0;
 }
 
+/*
+OUTPUT:
+parent process with PID 1218 is terminating  now 
+child process  1219 is an orphan process since parent is exited. its new parent is 12
+*/

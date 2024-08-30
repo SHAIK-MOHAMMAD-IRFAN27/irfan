@@ -1,6 +1,10 @@
 /*
-name: SHAIK MOHAMMAD IRFAN
-roll : MT2024138
+name: problem6.c
+author: SHAIK  MOHAMMAD IRFAN 
+description: Write a program to take input from STDIN and display on STDOUT.
+ Use only read/write system calls  
+
+date:20th august 2024
 */
 #include<stdio.h>
 #include<unistd.h>
@@ -19,3 +23,8 @@ exit(EXIT_FAILURE);
 }
 return 0;
 }
+/*
+OUTPUT:
+give some input text
+that input will come as ouput text an printed on the screen
+*/

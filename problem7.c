@@ -1,6 +1,9 @@
 /*
-name: SHAIK MOHAMMAD IRFAN
-roll : MT2024138
+name: problem7.c
+author: SHAIK  MOHAMMAD IRFAN 
+description: Write a program to copy file1 into file2 ($cp file1 file2).   
+
+date:20th august 2024
 */
 #include<stdio.h>
 #include<stdlib.h>
@@ -30,3 +33,8 @@ fclose(targetfile);
 printf("contents copied from File:%s to File:%s successfully\n",args[1],args[2]);
 return 0;
 }
+
+/*
+OUTPUT:
+contents copied from File1:pr71.txt to File : pr72.txt successfullty
+*/
